@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "imageviewer.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/michaelhenry/ImageViewer.swift",
+      "state" : {
+        "revision" : "3274b5f549b9e4cc8ab9f3e9734ee9fc6109e8e8",
+        "version" : "3.3.8"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage",
+      "state" : {
+        "revision" : "73b9397cfbd902f606572964055464903b1d84c6",
+        "version" : "5.19.0"
+      }
+    }
+  ],
+  "version" : 2
+}
