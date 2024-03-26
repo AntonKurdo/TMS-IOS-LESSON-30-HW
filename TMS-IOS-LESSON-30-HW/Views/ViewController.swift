@@ -43,7 +43,6 @@ class ViewController: UIViewController {
     
     private func fetchDataFromCache() {
         guard let storedData = StorageService.getValue(key: Keys.images) as? [String] else { return }
-        print(storedData)
         images = storedData
     }
     
