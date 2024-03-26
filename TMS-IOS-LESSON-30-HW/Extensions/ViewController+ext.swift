@@ -40,7 +40,7 @@ extension ViewController: CustomAlertDelegate {
             let newImageIndex = self.images.count
             
             guard let imageName = urlComponent?.host else {return}
-            ImageCaching.saveImage(newImage, imageName) { name in
+            ImageCaching.saveImage(newImage, "\(imageName)_\(newImageIndex)") { name in
                 DispatchQueue.main.async {
                     self.images.append(name)
                     self.galleryView.insertItems(at: [IndexPath(item: newImageIndex, section: 0)])
