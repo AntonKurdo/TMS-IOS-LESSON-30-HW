@@ -30,11 +30,6 @@ class GalleryItem: UICollectionViewCell {
         setupRemoveBtn()
     }
     
-//    override func prepareForReuse() {
-//        imageView.image = UIImage(named: "DefaultImg")
-//        remove = nil
-//    }
-//    
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }

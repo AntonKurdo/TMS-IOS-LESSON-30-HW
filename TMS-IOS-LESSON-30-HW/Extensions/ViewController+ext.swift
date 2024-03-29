@@ -16,9 +16,6 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegateFl
                     self.galleryView.deleteItems(at: [indexPath])
                 }) { _ in
                     self.galleryView.reloadItems(at: self.galleryView.indexPathsForVisibleItems)
-//                    self.galleryView.reloadSections(IndexSet(integer: indexPath.section))
-                    
-
                 }
             }
         }
