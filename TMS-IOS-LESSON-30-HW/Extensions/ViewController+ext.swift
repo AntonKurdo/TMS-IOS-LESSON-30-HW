@@ -15,7 +15,10 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegateFl
                 self.galleryView.performBatchUpdates({
                     self.galleryView.deleteItems(at: [indexPath])
                 }) { _ in
-                    self.galleryView.reloadData()
+                    self.galleryView.reloadItems(at: self.galleryView.indexPathsForVisibleItems)
+//                    self.galleryView.reloadSections(IndexSet(integer: indexPath.section))
+                    
+
                 }
             }
         }
@@ -33,9 +36,7 @@ extension ViewController: CustomAlertDelegate {
     func onSuccessTapped(url urlString: String) {
         DispatchQueue.global(qos: .userInitiated).async {
             let url = URL(string: urlString)!
-            let data = try! Data(contentsOf: url)
-            let urlComponent = URLComponents(string: urlString)
-            
+            let data = try! Data(contentsOf: url)            
             let newImage = UIImage(data: data)
             let newImageIndex = self.images.count
     

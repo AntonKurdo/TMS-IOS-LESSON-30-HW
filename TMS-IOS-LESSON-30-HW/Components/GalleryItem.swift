@@ -3,7 +3,7 @@ import ImageViewer_swift
 
 class GalleryItem: UICollectionViewCell {
     
-   private let imageView = {
+    private let imageView = {
         let iv = UIImageView()
         iv.translatesAutoresizingMaskIntoConstraints = false
         iv.contentMode = .scaleAspectFill
@@ -12,7 +12,7 @@ class GalleryItem: UICollectionViewCell {
         return iv
     }()
     
-   private let removeButton = {
+    private let removeButton = {
         let btn = UIButton()
         btn.setImage(UIImage(systemName: "minus.circle.fill"), for: .normal)
         btn.tintColor = .red
@@ -30,6 +30,11 @@ class GalleryItem: UICollectionViewCell {
         setupRemoveBtn()
     }
     
+//    override func prepareForReuse() {
+//        imageView.image = UIImage(named: "DefaultImg")
+//        remove = nil
+//    }
+//    
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
@@ -43,7 +48,7 @@ class GalleryItem: UICollectionViewCell {
     
     private func setupImageView() {
         contentView.addSubview(imageView)
-                        
+        
         imageView.isUserInteractionEnabled = true
         
         NSLayoutConstraint.activate([
@@ -71,12 +76,9 @@ class GalleryItem: UICollectionViewCell {
     }
     
     func configure(image: UIImage) {
-        if imageView.image == nil {
-            DispatchQueue.main.async {
-                self.imageView.image = image
-                self.imageView.setupImageViewer()
-            }
-       
+        DispatchQueue.main.async {
+            self.imageView.image = image
+            self.imageView.setupImageViewer()
         }
     }
 }
