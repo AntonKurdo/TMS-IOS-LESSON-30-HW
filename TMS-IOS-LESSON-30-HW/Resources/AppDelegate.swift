@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  TMS-IOS-LESSON-30-HW
-//
-//  Created by mac on 20.03.24.
-//
-
 import UIKit
 
 @main

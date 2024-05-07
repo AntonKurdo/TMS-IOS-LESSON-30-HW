@@ -7,23 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042298762BAB730600D4BB52 /* ViewController+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042298752BAB730600D4BB52 /* ViewController+ext.swift */; };
+		042298782BAB73D900D4BB52 /* GalleryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042298772BAB73D900D4BB52 /* GalleryItem.swift */; };
+		0446F62F2BACB6670020BC03 /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446F62E2BACB6670020BC03 /* CustomAlert.swift */; };
+		0446F6322BACB6A20020BC03 /* TapGestureWithClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446F6312BACB6A20020BC03 /* TapGestureWithClosure.swift */; };
+		0446F6342BACBD1F0020BC03 /* UITextField+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446F6332BACBD1F0020BC03 /* UITextField+ext.swift */; };
+		0446F6362BACC59F0020BC03 /* KeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446F6352BACC59F0020BC03 /* KeyboardHelper.swift */; };
+		0446F6382BACC79D0020BC03 /* verifyUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446F6372BACC79D0020BC03 /* verifyUrl.swift */; };
+		045217512BAED35B0018C663 /* ImageCaching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045217502BAED35B0018C663 /* ImageCaching.swift */; };
 		0465BED02BAB683800C7FDE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465BECF2BAB683800C7FDE3 /* AppDelegate.swift */; };
 		0465BED22BAB683800C7FDE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465BED12BAB683800C7FDE3 /* SceneDelegate.swift */; };
 		0465BED42BAB683800C7FDE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465BED32BAB683800C7FDE3 /* ViewController.swift */; };
-		0465BED72BAB683800C7FDE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0465BED52BAB683800C7FDE3 /* Main.storyboard */; };
 		0465BED92BAB683A00C7FDE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0465BED82BAB683A00C7FDE3 /* Assets.xcassets */; };
 		0465BEDC2BAB683A00C7FDE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0465BEDA2BAB683A00C7FDE3 /* LaunchScreen.storyboard */; };
+		048586212BB1C66900017ED0 /* ImageViewer_swift in Frameworks */ = {isa = PBXBuildFile; productRef = 048586202BB1C66900017ED0 /* ImageViewer_swift */; };
+		04C10A6B2BAE2FD000897208 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C10A6A2BAE2FD000897208 /* Storage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		042298752BAB730600D4BB52 /* ViewController+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+ext.swift"; sourceTree = "<group>"; };
+		042298772BAB73D900D4BB52 /* GalleryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryItem.swift; sourceTree = "<group>"; };
+		0446F62E2BACB6670020BC03 /* CustomAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
+		0446F6312BACB6A20020BC03 /* TapGestureWithClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureWithClosure.swift; sourceTree = "<group>"; };
+		0446F6332BACBD1F0020BC03 /* UITextField+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+ext.swift"; sourceTree = "<group>"; };
+		0446F6352BACC59F0020BC03 /* KeyboardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHelper.swift; sourceTree = "<group>"; };
+		0446F6372BACC79D0020BC03 /* verifyUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verifyUrl.swift; sourceTree = "<group>"; };
+		045217502BAED35B0018C663 /* ImageCaching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCaching.swift; sourceTree = "<group>"; };
 		0465BECC2BAB683800C7FDE3 /* TMS-IOS-LESSON-30-HW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TMS-IOS-LESSON-30-HW.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0465BECF2BAB683800C7FDE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0465BED12BAB683800C7FDE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0465BED32BAB683800C7FDE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0465BED62BAB683800C7FDE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0465BED82BAB683A00C7FDE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0465BEDB2BAB683A00C7FDE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0465BEDD2BAB683A00C7FDE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C10A6A2BAE2FD000897208 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +48,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048586212BB1C66900017ED0 /* ImageViewer_swift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042298702BAB692D00D4BB52 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0465BED82BAB683A00C7FDE3 /* Assets.xcassets */,
+				0465BEDD2BAB683A00C7FDE3 /* Info.plist */,
+				0465BECF2BAB683800C7FDE3 /* AppDelegate.swift */,
+				0465BEDA2BAB683A00C7FDE3 /* LaunchScreen.storyboard */,
+				0465BED12BAB683800C7FDE3 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		042298712BAB694F00D4BB52 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0465BED32BAB683800C7FDE3 /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		042298722BAB6BD500D4BB52 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0446F62E2BACB6670020BC03 /* CustomAlert.swift */,
+				042298772BAB73D900D4BB52 /* GalleryItem.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		042298742BAB72AE00D4BB52 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				042298752BAB730600D4BB52 /* ViewController+ext.swift */,
+				0446F6332BACBD1F0020BC03 /* UITextField+ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0446F6302BACB68B0020BC03 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0446F6312BACB6A20020BC03 /* TapGestureWithClosure.swift */,
+				0446F6352BACC59F0020BC03 /* KeyboardHelper.swift */,
+				0446F6372BACC79D0020BC03 /* verifyUrl.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		0465BEC32BAB683800C7FDE3 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +122,23 @@
 		0465BECE2BAB683800C7FDE3 /* TMS-IOS-LESSON-30-HW */ = {
 			isa = PBXGroup;
 			children = (
-				0465BECF2BAB683800C7FDE3 /* AppDelegate.swift */,
-				0465BED12BAB683800C7FDE3 /* SceneDelegate.swift */,
-				0465BED32BAB683800C7FDE3 /* ViewController.swift */,
-				0465BED52BAB683800C7FDE3 /* Main.storyboard */,
-				0465BED82BAB683A00C7FDE3 /* Assets.xcassets */,
-				0465BEDA2BAB683A00C7FDE3 /* LaunchScreen.storyboard */,
-				0465BEDD2BAB683A00C7FDE3 /* Info.plist */,
+				04C10A692BAE2FC000897208 /* Services */,
+				042298722BAB6BD500D4BB52 /* Components */,
+				0446F6302BACB68B0020BC03 /* Utils */,
+				042298742BAB72AE00D4BB52 /* Extensions */,
+				042298712BAB694F00D4BB52 /* Views */,
+				042298702BAB692D00D4BB52 /* Resources */,
 			);
 			path = "TMS-IOS-LESSON-30-HW";
+			sourceTree = "<group>";
+		};
+		04C10A692BAE2FC000897208 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				04C10A6A2BAE2FD000897208 /* Storage.swift */,
+				045217502BAED35B0018C663 /* ImageCaching.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +157,9 @@
 			dependencies = (
 			);
 			name = "TMS-IOS-LESSON-30-HW";
+			packageProductDependencies = (
+				048586202BB1C66900017ED0 /* ImageViewer_swift */,
+			);
 			productName = "TMS-IOS-LESSON-30-HW";
 			productReference = 0465BECC2BAB683800C7FDE3 /* TMS-IOS-LESSON-30-HW.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +188,9 @@
 				Base,
 			);
 			mainGroup = 0465BEC32BAB683800C7FDE3;
+			packageReferences = (
+				0485861F2BB1C66900017ED0 /* XCRemoteSwiftPackageReference "ImageViewer" */,
+			);
 			productRefGroup = 0465BECD2BAB683800C7FDE3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +207,6 @@
 			files = (
 				0465BEDC2BAB683A00C7FDE3 /* LaunchScreen.storyboard in Resources */,
 				0465BED92BAB683A00C7FDE3 /* Assets.xcassets in Resources */,
-				0465BED72BAB683800C7FDE3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +217,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042298782BAB73D900D4BB52 /* GalleryItem.swift in Sources */,
+				04C10A6B2BAE2FD000897208 /* Storage.swift in Sources */,
 				0465BED42BAB683800C7FDE3 /* ViewController.swift in Sources */,
 				0465BED02BAB683800C7FDE3 /* AppDelegate.swift in Sources */,
+				0446F6342BACBD1F0020BC03 /* UITextField+ext.swift in Sources */,
+				045217512BAED35B0018C663 /* ImageCaching.swift in Sources */,
+				0446F62F2BACB6670020BC03 /* CustomAlert.swift in Sources */,
+				042298762BAB730600D4BB52 /* ViewController+ext.swift in Sources */,
+				0446F6382BACC79D0020BC03 /* verifyUrl.swift in Sources */,
 				0465BED22BAB683800C7FDE3 /* SceneDelegate.swift in Sources */,
+				0446F6362BACC59F0020BC03 /* KeyboardHelper.swift in Sources */,
+				0446F6322BACB6A20020BC03 /* TapGestureWithClosure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0465BED52BAB683800C7FDE3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0465BED62BAB683800C7FDE3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0465BEDA2BAB683A00C7FDE3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,10 +374,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N3LRJV66ML;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "TMS-IOS-LESSON-30-HW/Info.plist";
+				INFOPLIST_FILE = "TMS-IOS-LESSON-30-HW/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,10 +401,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N3LRJV66ML;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "TMS-IOS-LESSON-30-HW/Info.plist";
+				INFOPLIST_FILE = "TMS-IOS-LESSON-30-HW/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,6 +441,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0485861F2BB1C66900017ED0 /* XCRemoteSwiftPackageReference "ImageViewer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/michaelhenry/ImageViewer.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.3.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		048586202BB1C66900017ED0 /* ImageViewer_swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0485861F2BB1C66900017ED0 /* XCRemoteSwiftPackageReference "ImageViewer" */;
+			productName = ImageViewer_swift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0465BEC42BAB683800C7FDE3 /* Project object */;
 }
